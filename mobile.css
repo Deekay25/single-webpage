@@ -175,7 +175,10 @@ body {
 }
 
 .div-overlay {
-  margin: 3rem 1rem 0 1rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-bottom: -50px;
+  margin-left: 1rem;
   text-align: center;
   border-radius: 10px;
   background-color: white;
@@ -185,14 +188,101 @@ body {
 .div-overlay h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size:large;
+  font-size: large;
   padding: 0 0 1rem 0;
 }
 
 .div-overlay button {
-    padding: 0.5rem 2.5rem;
-    border: none;
-    border-radius: 20px;
-    background-color: hsl(322, 100%, 66%);
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-left: 10px;
+}
+
+.footer-logo {
+    width: 30%;
+    filter: invert(1);
+    padding-bottom:1rem;
+}
+
+
+#location-p {
+   display: flex;
+   flex-direction: row;
+   
+}
+#location-p .location-img {
+    align-self: flex-start;
+}
+
+#location-p span {
+    color: white;
+    padding-left: 1rem;
+}
+
+.telephone-p {
+    padding-top: 1rem;
+   
+}
+.telephone-p span{
+    color: white;
+     padding-left: 0.5rem;
+}
+#email-p {
+    padding-top: 1rem;
+   
+}
+#email-p span{
+    color: white;
+     padding-left: 0.5rem;
+    font-weight: 400;
+}
+
+.footer-ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.footer-ul li {
+    line-height: 2;
+}
+
+.footer-ul a {
+    text-decoration: none;
     color: white;
 }
+
+.social {
+    padding-top: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social .fa-brands {
+    margin: 5px;
+    color: white;
+    border: solid 1px white;
+    padding:0.5rem;
+    border-radius: 50%;
+}
+
+.copyright {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.copyright p{
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
