@@ -1,3 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
+
+/* ### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700 */
+
+* {
+  box-sizing: box-sizing;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-    /* background-color: blue; */
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 375px;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  margin: 20px 0 0 20px;
+}
+
+#top-header-btn {
+  margin: 20px 20px 0 0;
+  background: white;
+  padding: 0.199em 1.5em;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.h1-style {
+  text-align: center;
+  margin: 60px 0 20px 0;
+  padding: 0 2.4rem;
+  line-height: 1.3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.p-header {
+  text-align: center;
+  /* margin: 0 0 20px 0; */
+  padding: 0 1.4rem;
+  font-weight: 400;
+}
+
+#bottom-header-btn {
+  /* text-align: center; */
+  /* margin: 0 0 20px 0; */
+  margin: 30px 3.5rem 0 3.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.mockup {
+  margin: 5rem 2rem 2rem 2rem;
+}
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.card1 {
+  margin: 3rem 1rem 0 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card1 .card-img {
+  width: 11rem;
+  padding: 2.5rem 1rem;
+}
+
+.card1 .card-p {
+  padding: 1rem 0 0 0;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 2rem 0.5rem;
+  opacity: 0.4;
+}
+
+.card1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card2 {
+  margin: 3rem 1rem 0 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card2 .card-img {
+  width: 11rem;
+  padding: 2.5rem 1rem;
+}
+
+.card2 .card-p {
+  padding: 1rem 0 0 0;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 2rem 0.8rem;
+  opacity: 0.4;
+}
+
+.card2 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.card3 {
+  margin: 3rem 1rem 0 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card3 .card-img {
+  width: 11rem;
+  padding: 2.5rem 1rem;
+}
+
+.card3 .card-p {
+  padding: 1rem 0 0 0;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 2rem 1.3rem;
+  opacity: 0.4;
+}
+
+.card3 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.div-overlay {
+  margin: 3rem 1rem 0 1rem;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2rem 1rem;
+}
+
+.div-overlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size:large;
+  padding: 0 0 1rem 0;
+}
+
+.div-overlay button {
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
 }
