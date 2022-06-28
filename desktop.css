@@ -1,3 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
+
+/* ### Body Copy
+
+- Font size: 18px
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 600
+
+### Body, Call-to-actions
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700 */
+
+* {
+  box-sizing: box-sizing;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-    background-color: red;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+  padding: 1.5rem 2rem 2rem 2rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#top-header-btn {
+  background: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.desk-style-flex {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.desk-h1-p {
+  align-self: center;
+  padding-right: 3rem;
+}
+.mockup {
+  /* margin: 5rem 2rem 2rem 2rem; */
+  width: 50%;
+}
+
+.h1-style {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  font-size: 3rem;
+}
+
+.p-header {
+  padding-top: 1rem;
+  font-weight: 400;
+}
+
+#bottom-header-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 20px;
+  border: none;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  margin-top: 1rem;
+}
+
+.main-flex {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
 }

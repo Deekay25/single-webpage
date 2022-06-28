@@ -26,7 +26,6 @@ body {
   font-family: "Open Sans", sans-serif;
   max-width: 375px;
 }
-
 .header-flex {
   display: flex;
   flex-direction: column;
@@ -75,7 +74,7 @@ body {
   /* text-align: center; */
   /* margin: 0 0 20px 0; */
   margin: 30px 3.5rem 0 3.5rem;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 4.1rem;
   border-radius: 20px;
   border: none;
   font-weight: 700;
@@ -85,6 +84,7 @@ body {
 
 .mockup {
   margin: 5rem 2rem 2rem 2rem;
+  width: 85%;
 }
 
 .main-flex {
@@ -209,80 +209,75 @@ footer {
 }
 
 .footer-logo {
-    width: 30%;
-    filter: invert(1);
-    padding-bottom:1rem;
+  width: 30%;
+  filter: invert(1);
+  padding-bottom: 1rem;
 }
-
 
 #location-p {
-   display: flex;
-   flex-direction: row;
-   
+  display: flex;
+  flex-direction: row;
 }
 #location-p .location-img {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 #location-p span {
-    color: white;
-    padding-left: 1rem;
+  color: white;
+  padding-left: 1rem;
 }
 
 .telephone-p {
-    padding-top: 1rem;
-   
+  padding-top: 1rem;
 }
-.telephone-p span{
-    color: white;
-     padding-left: 0.5rem;
+.telephone-p span {
+  color: white;
+  padding-left: 0.5rem;
 }
 #email-p {
-    padding-top: 1rem;
-   
+  padding-top: 1rem;
 }
-#email-p span{
-    color: white;
-     padding-left: 0.5rem;
-    font-weight: 400;
+#email-p span {
+  color: white;
+  padding-left: 0.5rem;
+  font-weight: 400;
 }
 
 .footer-ul {
-    list-style: none;
-    padding-top: 2rem;
+  list-style: none;
+  padding-top: 2rem;
 }
 
 .footer-ul li {
-    line-height: 2;
+  line-height: 2;
 }
 
 .footer-ul a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .social {
-    padding-top: 2rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  padding-top: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .social .fa-brands {
-    margin: 5px;
-    color: white;
-    border: solid 1px white;
-    padding:0.5rem;
-    border-radius: 50%;
+  margin: 5px;
+  color: white;
+  border: solid 1px white;
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .copyright {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
-.copyright p{
-    color: white;
-    font-size: small;
-    text-align: center;
+.copyright p {
+  color: white;
+  font-size: small;
+  text-align: center;
 }
-
