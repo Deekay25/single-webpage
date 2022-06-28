@@ -90,3 +90,147 @@ body {
   flex-direction: column;
   background-color: whitesmoke;
 }
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 3rem 0 3rem;
+  /* text-align: center; */
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 5rem;
+}
+
+.card1 .card-img {
+  width: 23rem;
+  padding: 2.5rem 1rem;
+  order: 2;
+}
+
+.card1-desk-h3-p {
+  align-self: center;
+
+  /* padding-right: 10rem; */
+}
+
+.card1 .card-p {
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 15rem;
+  opacity: 0.4;
+}
+
+.card1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 3rem 0 3rem;
+  /* text-align: center; */
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 5rem;
+}
+
+.card2 .card-img {
+  width: 23rem;
+  padding: 2.5rem 1rem;
+  /* order: 2; */
+}
+
+.card2-desk-h3-p {
+  align-self: center;
+  padding-left: 9rem;
+  /* padding-right: 10rem; */
+}
+
+.card2 .card-p {
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 5.5rem;
+  opacity: 0.4;
+}
+
+.card2 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 3rem 5rem 3rem;
+  /* text-align: center; */
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 5rem;
+}
+
+.card3 .card-img {
+  width: 23rem;
+  padding: 2.5rem 1rem;
+  order: 2;
+}
+
+.card3-desk-h3-p {
+  align-self: center;
+  /* padding-right: 10rem; */
+}
+
+.card3 .card-p {
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-right: 15rem;
+  opacity: 0.4;
+}
+
+.card3 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+
+
+.div-overlay {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2rem 1rem;
+  width: 50%;
+  margin: 3rem auto -50px auto;
+}
+
+.div-overlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  padding: 0 0 1rem 0;
+}
+
+.div-overlay button {
+  padding: 1.2rem 5rem;
+  border: none;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-left: 10px;
+}
