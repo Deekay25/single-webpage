@@ -201,8 +201,6 @@ body {
   font-size: 3rem;
 }
 
-
-
 .div-overlay {
   text-align: center;
   border-radius: 10px;
@@ -232,89 +230,108 @@ footer {
   display: flex;
   flex-direction: column;
   padding-top: 6rem;
-  padding-left: 10px;
+  padding-left: 5rem;
 }
 
-.footer-div-flex{
-  background-color: red;
-  display: flex;
-}
 .footer-logo {
-  width: 30%;
+  width: 20%;
   filter: invert(1);
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
-.desk-social-copy{
+
+.footer-div-flex {
   display: flex;
-  flex-direction: column;
-  background-color: blue;
+
+}
+
+.desk-footer-l-p-e {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.desk-social-copy {
+  
+  flex-grow: 1;
+  flex-basis: 100%;
 }
 
 #location-p {
-  /* display: flex; */
-  /* flex-direction: row; */
+  display: flex;
+  flex-direction: row; 
+  padding-bottom: 1rem;
+  /* width: 45%; */
 }
 #location-p .location-img {
-  /* align-self: flex-start; */
+  align-self: flex-start;
 }
 
 #location-p span {
-  /* color: white;
-  padding-left: 1rem; */
+  color: white;
+  padding-left: 1rem;
 }
 
 .telephone-p {
-  /* padding-top: 1rem; */
+  padding-bottom: 1rem;
 }
 .telephone-p span {
-  /* color: white;
-  padding-left: 0.5rem; */
+  color: white;
+  padding-left: 0.5rem;
 }
 #email-p {
   /* padding-top: 1rem; */
 }
 #email-p span {
-  /* color: white;
+  color: white;
   padding-left: 0.5rem;
-  font-weight: 400; */
+  font-weight: 400;
 }
 
 .footer-ul {
   /* list-style: none;
   padding-top: 2rem; */
+
+  flex-grow: 1;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
 .footer-ul li {
   /* line-height: 2; */
+  margin-bottom: 1rem;
+  /* list-style: none; */
 }
 
 .footer-ul a {
-  /* text-decoration: none;
-  color: white; */
+  text-decoration: none;
+  color: white;
 }
 
 .social {
-  /* padding-top: 2rem;
-  text-align: center;
+  /* padding-top: 2rem; */
+  /* text-align: center; */
   display: flex;
-  justify-content: center; */
+  /* justify-content: center; */
 }
 
 .social .fa-brands {
-  /* margin: 5px;
+  margin: 5px;
   color: white;
   border: solid 1px white;
   padding: 0.5rem;
-  border-radius: 50%; */
+  border-radius: 50%;
 }
 
 .copyright {
   /* margin-top: 1rem;
   margin-bottom: 3rem; */
+  align-self:flex-end;
+  width: 33.33%;
+  
 }
 .copyright p {
-  /* color: white;
+  color: white;
   font-size: small;
-  text-align: center; */
+  padding: 3rem 0;
 }
