@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@100;400;500;600;700&family=Roboto:wght@100&display=swap");
 
-/* ### Body Copy
-
-- Font size: 18px
-
-### Headings
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 600
-
-### Body, Call-to-actions
-
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700 */
-
 * {
   box-sizing: box-sizing;
   padding: 0;
@@ -48,6 +34,10 @@ body {
   border-radius: 20px;
   font-weight: 700;
 }
+#top-header-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 
 .desk-style-flex {
   display: flex;
@@ -59,7 +49,6 @@ body {
   padding-right: 3rem;
 }
 .mockup {
-  /* margin: 5rem 2rem 2rem 2rem; */
   width: 50%;
 }
 
@@ -85,6 +74,11 @@ body {
   margin-top: 1rem;
 }
 
+#bottom-header-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .main-flex {
   display: flex;
   flex-direction: column;
@@ -95,10 +89,14 @@ body {
   display: flex;
   flex-direction: row;
   margin: 5rem 3rem 0 3rem;
-  /* text-align: center; */
   border-radius: 10px;
   background-color: white;
   padding-left: 5rem;
+}
+
+.card1:hover {
+  transform: scale(1.05);
+  transition: 1s;
 }
 
 .card1 .card-img {
@@ -109,8 +107,6 @@ body {
 
 .card1-desk-h3-p {
   align-self: center;
-
-  /* padding-right: 10rem; */
 }
 
 .card1 .card-p {
@@ -132,22 +128,24 @@ body {
   display: flex;
   flex-direction: row;
   margin: 2rem 3rem 0 3rem;
-  /* text-align: center; */
   border-radius: 10px;
   background-color: white;
   padding-left: 5rem;
 }
 
+.card2:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .card2 .card-img {
   width: 23rem;
   padding: 2.5rem 1rem;
-  /* order: 2; */
 }
 
 .card2-desk-h3-p {
   align-self: center;
   padding-left: 9rem;
-  /* padding-right: 10rem; */
 }
 
 .card2 .card-p {
@@ -169,10 +167,14 @@ body {
   display: flex;
   flex-direction: row;
   margin: 2rem 3rem 5rem 3rem;
-  /* text-align: center; */
   border-radius: 10px;
   background-color: white;
   padding-left: 5rem;
+}
+
+.card3:hover {
+  transform: scale(1.05);
+  transition: 1s;
 }
 
 .card3 .card-img {
@@ -183,7 +185,6 @@ body {
 
 .card3-desk-h3-p {
   align-self: center;
-  /* padding-right: 10rem; */
 }
 
 .card3 .card-p {
@@ -210,6 +211,11 @@ body {
   margin: 3rem auto -50px auto;
 }
 
+.div-overlay:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .div-overlay h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -223,6 +229,10 @@ body {
   border-radius: 30px;
   background-color: hsl(322, 100%, 66%);
   color: white;
+}
+.div-overlay button:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 footer {
@@ -239,10 +249,8 @@ footer {
   padding-bottom: 2rem;
 }
 
-
 .footer-div-flex {
   display: flex;
-
 }
 
 .desk-footer-l-p-e {
@@ -250,14 +258,13 @@ footer {
   flex-basis: 100%;
 }
 .desk-social-copy {
-  
   flex-grow: 1;
   flex-basis: 100%;
 }
 
 #location-p {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   padding-bottom: 1rem;
   /* width: 45%; */
 }
@@ -277,9 +284,7 @@ footer {
   color: white;
   padding-left: 0.5rem;
 }
-#email-p {
-  /* padding-top: 1rem; */
-}
+
 #email-p span {
   color: white;
   padding-left: 0.5rem;
@@ -287,9 +292,6 @@ footer {
 }
 
 .footer-ul {
-  /* list-style: none;
-  padding-top: 2rem; */
-
   flex-grow: 1;
   flex-basis: 100%;
   display: flex;
@@ -298,9 +300,7 @@ footer {
 }
 
 .footer-ul li {
-  /* line-height: 2; */
   margin-bottom: 1rem;
-  /* list-style: none; */
 }
 
 .footer-ul a {
@@ -309,10 +309,7 @@ footer {
 }
 
 .social {
-  /* padding-top: 2rem; */
-  /* text-align: center; */
   display: flex;
-  /* justify-content: center; */
 }
 
 .social .fa-brands {
@@ -324,11 +321,8 @@ footer {
 }
 
 .copyright {
-  /* margin-top: 1rem;
-  margin-bottom: 3rem; */
-  align-self:flex-end;
+  align-self: flex-end;
   width: 33.33%;
-  
 }
 .copyright p {
   color: white;
