@@ -245,7 +245,6 @@ footer {
 
 .footer-logo {
   width: 20%;
-  filter: invert(1);
   padding-bottom: 2rem;
 }
 
@@ -274,7 +273,7 @@ footer {
 
 #location-p span {
   color: white;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 .telephone-p {
@@ -282,12 +281,12 @@ footer {
 }
 .telephone-p span {
   color: white;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 #email-p span {
   color: white;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   font-weight: 400;
 }
 
@@ -324,6 +323,7 @@ footer {
   align-self: flex-end;
   width: 33.33%;
 }
+
 .copyright p {
   color: white;
   font-size: small;
